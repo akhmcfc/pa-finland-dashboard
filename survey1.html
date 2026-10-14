@@ -86,8 +86,8 @@ button:hover{background:var(--gold-d)}
 <script>
 const API = ['localhost','127.0.0.1'].includes(location.hostname) ? 'http://localhost:5000' : 'https://project-access-pipeline.onrender.com';
 const LIVE = 2026;
-const BLUES   = ['#1e3a8a','#2563eb','#3b82f6','#60a5fa','#93c5fd','#1d4ed8','#bfdbfe','#0ea5e9','#38bdf8','#7dd3fc'];
-const PURPLES = ['#7c3aed','#a855f7','#d8b4fe','#6d28d9','#c084fc','#e9d5ff','#8b5cf6','#f3e8ff','#4c1d95','#581c87'];
+const BLUES   = ['#FCB040','#2A3038','#1FA58A','#E4572E','#C98A1F','#6B7280','#7BC6A4','#F28F6B','#F6D28B','#9AA5B1'];
+const PURPLES = ['#E4572E','#1FA58A','#FCB040','#2A3038','#F28F6B','#7BC6A4','#C98A1F','#9AA5B1','#F6D28B','#6B7280','#B8860B'];
 const $ = id => document.getElementById(id);
 const charts = [];
 const status = (t,k) => { const s=$('status'); s.className=k||''; s.textContent=t||''; };
